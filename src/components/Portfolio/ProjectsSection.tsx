@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, Leaf, Globe } from "lucide-react";
+import { ExternalLink, Github, Leaf, Globe, Building, Search } from "lucide-react";
 
 const ProjectsSection = () => {
   const projects = [
@@ -22,6 +22,24 @@ const ProjectsSection = () => {
       githubLink: null,
       liveLink: "#",
       image: "🌐"
+    },
+    {
+      icon: <Building className="w-8 h-8 text-primary" />,
+      title: "AsiLeave",
+      description: "A leave management system that enables staff to easily book thier leave and get approvals in a professional manner.",
+      technologies: ["SQL", "PHP", "HTML", "Responsive Design"],
+      githubLink: "https://github.com/userIssa/lets-leave",
+      liveLink: "#",
+      image: "🏢"
+    },
+    {
+      icon: <Search className="w-8 h-8 text-primary" />,
+      title: "StegoWeb",
+      description: "A leave A web-based steganography tool for securely hiding and extracting data from image and audio files.",
+      technologies: ["Python", "HTML", "CSS", "Responsive Design"],
+      githubLink: "https://github.com/userIssa/Stegoweb",
+      liveLink: 'https://stegoweb.up.railway.app/',
+      image: "🔍"
     }
   ];
 
