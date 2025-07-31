@@ -26,7 +26,7 @@ const AboutSection = () => {
                 </p>
                 
                 <p>
-                  I've served as the Cybersecurity Lead for GDSC Babcock and interned at Nigeria LNG Limited and BIT2 Africa. These experiences have given me invaluable insights into both the technical and collaborative aspects of the tech industry.
+                  I've served as the Cybersecurity Lead for GDSC Babcock and interned at Nigeria LNG Limited and BIT Solution. These experiences have given me invaluable insights into both the technical and collaborative aspects of the tech industry.
                 </p>
                 
                 <p className="text-primary font-medium">
